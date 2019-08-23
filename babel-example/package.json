@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "babel source.jsx -o output.js",
-    "lint": "eslint --fix *.jsx"
+    "lint": "eslint --fix --ext js,jsx ."
   },
   "keywords": [],
   "author": "",
